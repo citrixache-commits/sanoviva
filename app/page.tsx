@@ -94,7 +94,7 @@ const categories = [
     icon: <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg>,
   },
   {
-    name: "Încălțăminte Ortopedică", slug: "incaltaminte", count: 29,
+    name: "Incaltaminte Ortopedica", slug: "incaltaminte", count: 29,
     gradient: "from-emerald-400 to-green-600",
     icon: <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>,
   },
@@ -111,46 +111,36 @@ const categories = [
 ];
 
 const products = [
-  { id: 1, name: "Genunchieră Elastică Premium", category: "Orteze", oldPrice: 149, price: 79, badge: "-47%", rating: 4.8, reviews: 124, color: "from-cyan-100 to-teal-50" },
+  { id: 1, name: "Genunchiera Elastica Premium", category: "Orteze", oldPrice: 149, price: 79, badge: "-47%", rating: 4.8, reviews: 124, color: "from-cyan-100 to-teal-50" },
   { id: 2, name: "Pistol de Masaj Pro 30W", category: "Masaj", oldPrice: 399, price: 199, badge: "-50%", rating: 4.9, reviews: 287, color: "from-orange-100 to-rose-50" },
-  { id: 3, name: "Banda Elastică Fitness Set 5x", category: "Fitness", oldPrice: 89, price: 49, badge: "-45%", rating: 4.7, reviews: 98, color: "from-violet-100 to-purple-50" },
-  { id: 4, name: "Pernă Ortopedică Cervicală", category: "Dispozitive", oldPrice: 199, price: 119, badge: "-40%", rating: 4.6, reviews: 203, color: "from-blue-100 to-indigo-50" },
-  { id: 5, name: "Încălțăminte Barefoot Sport", category: "Încălțăminte", oldPrice: 299, price: 179, badge: "-40%", rating: 4.8, reviews: 156, color: "from-emerald-100 to-green-50" },
-  { id: 6, name: "Centura Lombară cu Suport", category: "Orteze", oldPrice: 129, price: 69, badge: "-47%", rating: 4.5, reviews: 89, color: "from-teal-100 to-cyan-50" },
+  { id: 3, name: "Banda Elastica Fitness Set 5x", category: "Fitness", oldPrice: 89, price: 49, badge: "-45%", rating: 4.7, reviews: 98, color: "from-violet-100 to-purple-50" },
+  { id: 4, name: "Perna Ortopedica Cervicala", category: "Dispozitive", oldPrice: 199, price: 119, badge: "-40%", rating: 4.6, reviews: 203, color: "from-blue-100 to-indigo-50" },
+  { id: 5, name: "Incaltaminte Barefoot Sport", category: "Incaltaminte", oldPrice: 299, price: 179, badge: "-40%", rating: 4.8, reviews: 156, color: "from-emerald-100 to-green-50" },
+  { id: 6, name: "Centura Lombara cu Suport", category: "Orteze", oldPrice: 129, price: 69, badge: "-47%", rating: 4.5, reviews: 89, color: "from-teal-100 to-cyan-50" },
   { id: 7, name: "Aparat Tens Electrostimulare", category: "Dispozitive", oldPrice: 249, price: 149, badge: "-40%", rating: 4.7, reviews: 167, color: "from-indigo-100 to-blue-50" },
-  { id: 8, name: "Saltea Acupresură + Pernă", category: "Masaj", oldPrice: 179, price: 99, badge: "-45%", rating: 4.9, reviews: 312, color: "from-rose-100 to-orange-50" },
+  { id: 8, name: "Saltea Acupresura + Perna", category: "Masaj", oldPrice: 179, price: 99, badge: "-45%", rating: 4.9, reviews: 312, color: "from-rose-100 to-orange-50" },
 ];
 
 const trustItems = [
-  { icon: Icons.truck, title: "Livrare Gratuită", desc: "La comenzi peste 150 RON" },
-  { icon: Icons.returnIcon, title: "Retur 30 Zile", desc: "Garanție satisfacție 100%" },
+  { icon: Icons.truck, title: "Livrare Gratuita", desc: "La comenzi peste 150 RON" },
+  { icon: Icons.returnIcon, title: "Retur 30 Zile", desc: "Garantie satisfactie 100%" },
   { icon: Icons.cash, title: "Plata la Livrare", desc: "Cash sau card la curier" },
-  { icon: Icons.shield, title: "Produse Certificate", desc: "Calitate garantată" },
+  { icon: Icons.shield, title: "Produse Certificate", desc: "Calitate garantata" },
 ];
 
 const testimonials = [
-  { name: "Maria D.", city: "București", text: "Am comandat genunchiera și a ajuns în 24h. Calitate excelentă, materialul e premium și se simte foarte bine. Recomand cu încredere!", rating: 5, initials: "MD", color: "bg-cyan-500" },
-  { name: "Andrei P.", city: "Cluj-Napoca", text: "Pistolul de masaj e fantastic. L-am folosit după fiecare antrenament și diferența se simte enorm. Calitate-preț excelent.", rating: 5, initials: "AP", color: "bg-orange-500" },
-  { name: "Elena M.", city: "Timișoara", text: "Foarte mulțumită de centura lombară. Durerea de spate s-a ameliorat semnificativ după doar o săptămână de utilizare.", rating: 5, initials: "EM", color: "bg-violet-500" },
+  { name: "Maria D.", city: "Bucuresti", text: "Am comandat genunchiera si a ajuns in 24h. Calitate excelenta, materialul e premium si se simte foarte bine. Recomand cu incredere!", rating: 5, initials: "MD", color: "bg-cyan-500" },
+  { name: "Andrei P.", city: "Cluj-Napoca", text: "Pistolul de masaj e fantastic. L-am folosit dupa fiecare antrenament si diferenta se simte enorm. Calitate-pret excelent.", rating: 5, initials: "AP", color: "bg-orange-500" },
+  { name: "Elena M.", city: "Timisoara", text: "Foarte multumita de centura lombara. Durerea de spate s-a ameliorat semnificativ dupa doar o saptamana de utilizare.", rating: 5, initials: "EM", color: "bg-violet-500" },
 ];
 
 const quantityOffers = [
-  { qty: 1, label: "1 Bucată", price: 79, perUnit: 79, save: 0, popular: false },
-  { qty: 2, label: "2 Bucăți", price: 139, perUnit: 69, save: 19, popular: true },
-  { qty: 3, label: "3 Bucăți", price: 189, perUnit: 63, save: 48, popular: false },
+  { qty: 1, label: "1 Bucata", price: 79, perUnit: 79, save: 0, popular: false },
+  { qty: 2, label: "2 Bucati", price: 139, perUnit: 69, save: 19, popular: true },
+  { qty: 3, label: "3 Bucati", price: 189, perUnit: 63, save: 48, popular: false },
 ];
 
 /* ═══════════ Components ═══════════ */
-
-function TopBar() {
-  return (
-    <div className="gradient-primary text-white text-center py-3 px-4 font-bold tracking-wide">
-      <span className="animate-shimmer inline-block text-sm md:text-base">
-        🔥 TRANSPORT GRATUIT la comenzi peste 150 RON &nbsp;|&nbsp; ⚡ Livrare în 24h &nbsp;|&nbsp; 💰 Plata la livrare
-      </span>
-    </div>
-  );
-}
 
 function CountdownTimer() {
   const [time, setTime] = useState({ h: 2, m: 47, s: 33 });
@@ -168,12 +158,20 @@ function CountdownTimer() {
     return () => clearInterval(interval);
   }, []);
   const pad = (n: number) => n.toString().padStart(2, "0");
+
+  const labels = ["ORE", "MIN", "SEC"];
+
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-3">
       {[pad(time.h), pad(time.m), pad(time.s)].map((v, i) => (
-        <span key={i} className="flex items-center gap-1.5">
-          <span className="bg-gray-900 text-white font-extrabold text-lg md:text-xl px-2.5 py-1 rounded-lg min-w-[2.5rem] text-center tabular-nums">{v}</span>
-          {i < 2 && <span className="text-sale font-bold text-xl">:</span>}
+        <span key={i} className="flex items-center gap-3">
+          <span className="flex flex-col items-center">
+            <span className="glass rounded-2xl px-4 py-3 min-w-[3.5rem] text-center">
+              <span className="text-2xl md:text-3xl font-extrabold text-white tabular-nums">{v}</span>
+            </span>
+            <span className="text-[10px] font-semibold tracking-[0.2em] text-slate-500 mt-1.5">{labels[i]}</span>
+          </span>
+          {i < 2 && <span className="text-primary font-bold text-2xl -mt-5">:</span>}
         </span>
       ))}
     </div>
@@ -182,14 +180,27 @@ function CountdownTimer() {
 
 function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
-      <TopBar />
-      <div className="site-container py-4 flex items-center justify-between gap-4">
-        {/* Logo — bigger */}
-        <a href="/" className="flex items-center gap-3 shrink-0 group">
-          <div className="w-12 h-12 gradient-primary rounded-2xl flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-primary/30">
+    <header className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${scrolled ? "shadow-lg shadow-black/5" : "shadow-sm"}`}>
+      {/* Top announcement bar */}
+      <div className="gradient-primary text-white text-center py-2.5 px-4">
+        <span className="animate-shimmer inline-block text-xs md:text-sm font-medium tracking-wide">
+          Transport gratuit la comenzi peste 150 RON &nbsp;&bull;&nbsp; Livrare in 24h &nbsp;&bull;&nbsp; Plata la livrare
+        </span>
+      </div>
+
+      <div className="site-container py-4 flex items-center justify-between gap-6">
+        {/* Logo */}
+        <a href="/" className="flex items-center gap-2.5 shrink-0 group">
+          <div className="w-11 h-11 gradient-primary rounded-2xl flex items-center justify-center text-white font-extrabold text-lg shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-shadow">
             S
           </div>
           <span className="text-2xl font-extrabold text-gray-900">
@@ -198,70 +209,72 @@ function Header() {
           </span>
         </a>
 
-        {/* Search — bigger */}
-        <div className="hidden md:flex flex-1 max-w-xl">
+        {/* Search */}
+        <div className="hidden md:flex flex-1 max-w-lg">
           <div className="relative w-full">
             <input
               type="text"
-              placeholder="Caută produse: orteze, masaj, fitness..."
-              className="w-full bg-gray-50 border-2 border-gray-200 rounded-2xl py-3.5 px-6 pr-14 text-base focus:outline-none focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all placeholder:text-gray-400"
+              placeholder="Cauta produse: orteze, masaj, fitness..."
+              className="w-full bg-slate-50 border border-slate-200 rounded-full py-3 px-6 pr-12 text-sm focus:outline-none focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all placeholder:text-slate-400"
             />
-            <button className="absolute right-2 top-2 gradient-primary text-white rounded-xl p-2.5 hover:shadow-lg hover:shadow-primary/30 transition-all">
+            <button className="absolute right-1.5 top-1.5 gradient-primary text-white rounded-full p-2 hover:shadow-lg hover:shadow-primary/30 transition-all">
               {Icons.search}
             </button>
           </div>
         </div>
 
+        {/* Nav links (desktop) */}
+        <nav className="hidden lg:flex items-center gap-1">
+          {["Produse", "Categorii", "Oferte", "Contact"].map((link) => (
+            <a
+              key={link}
+              href={`#${link.toLowerCase()}`}
+              className="relative text-sm font-semibold text-slate-600 hover:text-primary px-3.5 py-2 rounded-lg transition-colors after:content-[''] after:absolute after:bottom-0.5 after:left-3.5 after:right-3.5 after:h-[2px] after:bg-primary after:rounded-full after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:origin-left"
+            >
+              {link}
+            </a>
+          ))}
+        </nav>
+
         {/* Actions */}
-        <div className="flex items-center gap-2">
-          <button className="md:hidden p-2.5 text-gray-600 hover:text-primary rounded-xl transition-all">
+        <div className="flex items-center gap-1">
+          <button className="md:hidden p-2.5 text-slate-500 hover:text-primary rounded-xl transition-colors">
             {Icons.search}
           </button>
-          <a href="#" className="hidden sm:flex p-2.5 text-gray-600 hover:text-primary rounded-xl transition-all">
+          <a href="#" className="hidden sm:flex p-2.5 text-slate-500 hover:text-primary rounded-xl transition-colors">
             {Icons.user}
           </a>
-          <a href="#" className="relative p-2.5 text-gray-600 hover:text-accent rounded-xl transition-all">
+          <a href="#" className="relative p-2.5 text-slate-500 hover:text-accent rounded-xl transition-colors">
             {Icons.cart}
-            <span className="absolute -top-0.5 -right-0.5 w-5 h-5 bg-sale text-white text-[11px] font-bold rounded-full flex items-center justify-center">
+            <span className="absolute -top-0.5 -right-0.5 w-5 h-5 gradient-accent text-white text-[10px] font-bold rounded-full flex items-center justify-center shadow-sm">
               0
             </span>
           </a>
-          <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-2.5 text-gray-600">
+          <button onClick={() => setMobileOpen(!mobileOpen)} className="lg:hidden p-2.5 text-slate-500">
             {mobileOpen ? Icons.close : Icons.menu}
           </button>
         </div>
       </div>
 
-      {/* Desktop nav — BIGGER, BOLDER */}
-      <nav className="hidden md:block bg-gray-50 border-t-2 border-primary/10">
-        <div className="site-container flex items-center justify-center gap-1 overflow-x-auto py-1">
+      {/* Mobile nav */}
+      {mobileOpen && (
+        <nav className="lg:hidden border-t border-slate-100 bg-white px-4 pb-5 animate-fade-in-up">
+          <div className="py-3">
+            <input
+              type="text"
+              placeholder="Cauta produse..."
+              className="w-full bg-slate-50 border border-slate-200 rounded-full py-3 px-5 text-sm focus:outline-none focus:border-primary"
+            />
+          </div>
           {categories.map((cat) => (
             <a
               key={cat.slug}
               href={`#${cat.slug}`}
-              className="py-3 px-5 text-base font-bold text-gray-700 hover:text-white hover:bg-primary rounded-xl transition-all whitespace-nowrap uppercase tracking-wide"
-            >
-              {cat.name}
-            </a>
-          ))}
-        </div>
-      </nav>
-
-      {/* Mobile nav */}
-      {mobileOpen && (
-        <nav className="md:hidden border-t border-gray-100 bg-white px-4 pb-4 animate-fade-in-up">
-          <div className="py-3">
-            <input type="text" placeholder="Caută produse..." className="w-full bg-gray-50 border-2 border-gray-200 rounded-2xl py-3 px-5 text-base focus:outline-none focus:border-primary" />
-          </div>
-          {categories.map((cat, i) => (
-            <a
-              key={cat.slug}
-              href={`#${cat.slug}`}
-              className="flex items-center gap-3 py-3 px-4 text-base font-bold text-gray-800 hover:text-white hover:bg-primary rounded-xl transition-all uppercase"
+              className="flex items-center gap-3 py-3 px-4 text-sm font-semibold text-slate-700 hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
               onClick={() => setMobileOpen(false)}
             >
-              <span className={`w-9 h-9 rounded-lg bg-gradient-to-br ${cat.gradient} flex items-center justify-center`}>
-                <span className="text-white text-sm font-bold">{cat.name[0]}</span>
+              <span className={`w-9 h-9 rounded-xl bg-gradient-to-br ${cat.gradient} flex items-center justify-center shadow-sm`}>
+                <span className="text-white text-xs font-bold">{cat.name[0]}</span>
               </span>
               {cat.name}
             </a>
@@ -275,69 +288,75 @@ function Header() {
 function HeroSection() {
   return (
     <section className="relative gradient-hero overflow-hidden">
-      <div className="absolute top-10 left-1/4 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-blob" />
-      <div className="absolute bottom-10 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl animate-blob" style={{ animationDelay: "2s" }} />
+      {/* Floating decorative orbs */}
+      <div className="absolute top-20 left-[15%] w-80 h-80 bg-primary/10 rounded-full blur-[100px] animate-float" />
+      <div className="absolute bottom-10 right-[10%] w-96 h-96 bg-accent/8 rounded-full blur-[120px] animate-float-delay" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[150px]" />
 
-      <div className="relative site-container py-14 md:py-20 flex flex-col items-center gap-10">
+      {/* Subtle grid overlay */}
+      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, white 1px, transparent 0)", backgroundSize: "40px 40px" }} />
+
+      <div className="relative site-container py-20 md:py-28 lg:py-32 flex flex-col items-center gap-12">
         <div className="max-w-3xl text-center z-10">
           {/* Urgency badge */}
-          <div className="inline-flex items-center gap-2 bg-sale/10 text-sale font-bold text-sm md:text-base px-6 py-2.5 rounded-full mb-6 animate-fade-in-up">
-            <span className="w-2.5 h-2.5 bg-sale rounded-full animate-pulse" />
-            🔥 OFERTĂ LIMITATĂ — Până la 50% REDUCERE
+          <div className="inline-flex items-center gap-2.5 glass rounded-full px-5 py-2 mb-8 animate-fade-in-up">
+            <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+            <span className="text-sm font-semibold text-white/90 tracking-wide">Oferta limitata - Pana la 50% reducere</span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 leading-[1.05] mb-6 animate-fade-in-up">
-            Sănătatea Ta,
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.05] mb-6 animate-fade-in-up">
+            Sanatatea Ta,
             <br />
-            <span className="text-gradient-primary">Prioritatea Noastră</span>
+            <span className="text-gradient-primary">Prioritatea Noastra</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-500 max-w-2xl mx-auto mb-8 leading-relaxed animate-fade-in-up">
-            Produse medicale și wellness de calitate superioară.
-            <strong className="text-gray-800"> Livrare GRATUITĂ. Plata la livrare.</strong>
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in-up">
+            Produse medicale si wellness de calitate superioara.
+            <span className="text-white font-medium"> Livrare gratuita. Plata la livrare.</span>
           </p>
 
           {/* Countdown */}
-          <div className="flex flex-col items-center gap-3 mb-10 animate-fade-in-up">
-            <p className="text-sale font-bold text-sm uppercase tracking-widest">⏰ Oferta expiră în:</p>
+          <div className="flex flex-col items-center gap-4 mb-12 animate-fade-in-up">
+            <p className="text-xs font-semibold tracking-[0.25em] text-slate-500 uppercase">Oferta expira in</p>
             <CountdownTimer />
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <a href="#produse" className="group inline-flex items-center justify-center gradient-accent text-white font-extrabold py-5 px-10 rounded-2xl transition-all hover:shadow-2xl hover:shadow-accent/40 hover:scale-105 text-lg animate-pulse-ring">
-              👉 VEZI OFERTELE ACUM
+            <a
+              href="#produse"
+              className="group inline-flex items-center justify-center gap-2 gradient-accent text-white font-bold py-4 px-10 rounded-full transition-all hover:shadow-2xl hover:shadow-accent/30 hover:scale-[1.03] text-base animate-pulse-ring"
+            >
+              Vezi Ofertele Acum
+              <span className="group-hover:translate-x-1 transition-transform">{Icons.arrow}</span>
             </a>
-            <a href="#categorii" className="inline-flex items-center justify-center bg-white border-2 border-gray-300 text-gray-700 font-bold py-5 px-10 rounded-2xl hover:border-primary hover:text-primary transition-all text-lg">
-              Categorii Produse
-            </a>
-          </div>
-
-          {/* Stats — bigger */}
-          <div className="flex items-center gap-10 mt-12 justify-center animate-fade-in-up">
-            {[
-              { value: "12,847", label: "Clienți Mulțumiți" },
-              { value: "200+", label: "Produse Premium" },
-              { value: "⭐ 4.8/5", label: "Rating Mediu" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <p className="text-3xl font-extrabold text-gray-900">{stat.value}</p>
-                <p className="text-sm text-gray-500 mt-1 font-medium">{stat.label}</p>
-              </div>
-            ))}
           </div>
         </div>
 
-        {/* Trust strip inline */}
-        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 z-10 animate-fade-in-up">
+        {/* Trust pills */}
+        <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 z-10 animate-fade-in-up">
           {[
-            { icon: "🚚", text: "Livrare GRATUITĂ" },
-            { icon: "↩️", text: "Retur 30 Zile" },
-            { icon: "💰", text: "Plata la Livrare" },
-            { icon: "✅", text: "Produse Certificate" },
+            { icon: Icons.truck, text: "Livrare Gratuita" },
+            { icon: Icons.returnIcon, text: "Retur 30 Zile" },
+            { icon: Icons.cash, text: "Plata la Livrare" },
+            { icon: Icons.shield, text: "Produse Certificate" },
           ].map((t) => (
-            <div key={t.text} className="flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-full px-5 py-2.5 shadow-sm border border-gray-100">
-              <span className="text-xl">{t.icon}</span>
-              <span className="font-bold text-sm text-gray-800">{t.text}</span>
+            <div key={t.text} className="glass rounded-2xl px-5 py-3 flex items-center gap-3">
+              <span className="text-primary">{t.icon}</span>
+              <span className="text-sm font-semibold text-white/90">{t.text}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* Stats */}
+        <div className="flex items-center gap-12 md:gap-16 z-10 animate-fade-in-up">
+          {[
+            { value: "12,847", label: "Clienti Multumiti" },
+            { value: "200+", label: "Produse Premium" },
+            { value: "4.8/5", label: "Rating Mediu" },
+          ].map((stat) => (
+            <div key={stat.label} className="text-center">
+              <p className="text-3xl md:text-4xl font-extrabold text-white">{stat.value}</p>
+              <p className="text-xs text-slate-500 mt-1 font-medium tracking-wide">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -346,54 +365,74 @@ function HeroSection() {
   );
 }
 
-function TrustBar() { return null; }
+function TrustBar() {
+  return (
+    <section className="bg-white border-b border-slate-100">
+      <div className="site-container py-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {trustItems.map((item) => (
+            <div key={item.title} className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-2xl bg-primary/5 flex items-center justify-center shrink-0">
+                {item.icon}
+              </div>
+              <div>
+                <p className="text-sm font-bold text-slate-900">{item.title}</p>
+                <p className="text-xs text-slate-400">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function ProductCard({ product, index }: { product: (typeof products)[0]; index: number }) {
   return (
     <div
-      className="group bg-white rounded-3xl border border-gray-100 overflow-hidden card-hover animate-fade-in-up"
+      className="group bg-white rounded-3xl border border-slate-100 overflow-hidden card-hover animate-fade-in-up"
       style={{ animationDelay: `${index * 0.08}s` }}
     >
-      {/* Image */}
-      <div className={`relative bg-gradient-to-br ${product.color} p-6 flex items-center justify-center h-56 overflow-hidden`}>
-        <div className="w-28 h-28 rounded-full bg-white/50 flex items-center justify-center backdrop-blur-sm">
-          <svg className="w-14 h-14 text-gray-400 group-hover:text-primary transition-colors duration-300" fill="none" stroke="currentColor" strokeWidth={1.2} viewBox="0 0 24 24">
+      {/* Image area */}
+      <div className={`relative bg-gradient-to-br ${product.color} p-8 flex items-center justify-center h-56 overflow-hidden`}>
+        <div className="w-24 h-24 rounded-full bg-white/60 flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform duration-500">
+          <svg className="w-12 h-12 text-slate-300 group-hover:text-primary transition-colors duration-500" fill="none" stroke="currentColor" strokeWidth={1} viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
           </svg>
         </div>
 
         {product.badge && (
-          <span className="absolute top-3 left-3 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold px-3 py-1.5 rounded-xl shadow-lg shadow-red-500/20">
+          <span className="absolute top-4 left-4 bg-gradient-to-r from-red-500 to-rose-600 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg shadow-red-500/20">
             {product.badge}
           </span>
         )}
 
-        <button className="absolute top-3 right-3 w-9 h-9 bg-white/80 backdrop-blur-sm rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white hover:text-accent hover:scale-110 text-gray-400">
+        <button className="absolute top-4 right-4 w-9 h-9 bg-white/70 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white hover:text-accent hover:scale-110 text-slate-400">
           {Icons.heart}
         </button>
 
-        {/* Quick add overlay */}
-        <div className="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 p-3">
+        {/* Quick add */}
+        <div className="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 p-4">
           <button className="w-full gradient-primary text-white text-sm font-semibold py-2.5 rounded-xl hover:shadow-lg hover:shadow-primary/30 transition-shadow">
-            + Adaugă în Coș
+            + Adauga in Cos
           </button>
         </div>
       </div>
 
       {/* Info */}
-      <div className="p-5 text-center">
-        <p className="text-xs font-bold text-primary mb-1 tracking-widest uppercase">{product.category}</p>
-        <h3 className="font-bold text-gray-900 text-base mb-2 leading-snug line-clamp-2 group-hover:text-primary transition-colors">{product.name}</h3>
+      <div className="p-6 text-center">
+        <p className="text-[11px] font-semibold text-primary mb-1.5 tracking-[0.15em] uppercase">{product.category}</p>
+        <h3 className="font-bold text-slate-900 text-sm mb-3 leading-snug line-clamp-2 group-hover:text-primary transition-colors">{product.name}</h3>
 
-        <div className="flex items-center gap-1.5 mb-3 justify-center">
+        <div className="flex items-center gap-1 mb-4 justify-center">
           <div className="flex gap-0.5">{Icons.star}{Icons.star}{Icons.star}{Icons.star}{Icons.star}</div>
-          <span className="text-xs font-bold text-gray-700">({product.reviews})</span>
+          <span className="text-xs text-slate-500 font-medium">({product.reviews})</span>
         </div>
 
-        <div className="pt-3 border-t border-gray-100">
-          <span className="text-sm text-gray-400 line-through">{product.oldPrice} RON</span>
-          <p className="text-2xl font-extrabold text-accent">{product.price} <span className="text-base font-bold">RON</span></p>
-          <p className="text-xs font-bold text-green-600 mt-1">Economisești {product.oldPrice - product.price} RON</p>
+        <div className="pt-4 border-t border-slate-100">
+          <span className="text-sm text-slate-400 line-through">{product.oldPrice} RON</span>
+          <p className="text-2xl font-extrabold text-accent mt-0.5">{product.price} <span className="text-sm font-bold">RON</span></p>
+          <p className="text-xs font-semibold text-green-600 mt-1.5">Economisesti {product.oldPrice - product.price} RON</p>
         </div>
       </div>
     </div>
@@ -402,24 +441,24 @@ function ProductCard({ product, index }: { product: (typeof products)[0]; index:
 
 function ProductsSection() {
   return (
-    <section id="produse" className="gradient-mesh py-20">
+    <section id="produse" className="gradient-mesh py-24">
       <div className="site-container">
-        <div className="text-center mb-14">
-          <span className="inline-block text-primary text-sm font-semibold tracking-widest uppercase mb-3">Top Produse</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
-            Cele Mai <span className="text-gradient-primary">Vândute</span>
+        <div className="text-center mb-16">
+          <span className="inline-block text-primary text-xs font-semibold tracking-[0.2em] uppercase mb-4">Top Produse</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
+            Cele Mai <span className="text-gradient-primary">Vandute</span>
           </h2>
-          <p className="text-gray-500 max-w-md mx-auto text-lg">
-            Produsele preferate de clienții noștri, cu cele mai bune recenzii
+          <p className="text-slate-500 max-w-md mx-auto text-base leading-relaxed">
+            Produsele preferate de clientii nostri, cu cele mai bune recenzii
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-6">
           {products.map((p, i) => <ProductCard key={p.id} product={p} index={i} />)}
         </div>
 
-        <div className="text-center mt-14">
-          <a href="#" className="group inline-flex items-center gap-2 gradient-primary text-white font-semibold py-3.5 px-8 rounded-2xl hover:shadow-xl hover:shadow-primary/30 transition-all hover:scale-[1.02]">
+        <div className="text-center mt-16">
+          <a href="#" className="group inline-flex items-center gap-2 gradient-primary text-white font-semibold py-3.5 px-8 rounded-full hover:shadow-xl hover:shadow-primary/20 transition-all hover:scale-[1.02]">
             Vezi Toate Produsele
             <span className="group-hover:translate-x-1 transition-transform">{Icons.arrow}</span>
           </a>
@@ -431,37 +470,36 @@ function ProductsSection() {
 
 function CategoriesSection() {
   return (
-    <section id="categorii" className="bg-gray-50 py-20">
+    <section id="categorii" className="bg-slate-50 py-24">
       <div className="site-container">
-        <div className="text-center mb-14">
-          <span className="inline-block text-accent text-sm font-semibold tracking-widest uppercase mb-3">Explorează</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
+        <div className="text-center mb-16">
+          <span className="inline-block text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-4">Exploreaza</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
             Toate <span className="text-gradient-accent">Categoriile</span>
           </h2>
-          <p className="text-gray-500 max-w-md mx-auto text-lg">
-            Găsește exact ce ai nevoie din gama noastră completă
+          <p className="text-slate-500 max-w-md mx-auto text-base leading-relaxed">
+            Gaseste exact ce ai nevoie din gama noastra completa
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
           {categories.map((cat, i) => (
             <a
               key={cat.slug}
               href={`#${cat.slug}`}
-              className="group relative bg-white rounded-3xl p-8 md:p-10 border border-gray-100 card-hover overflow-hidden animate-fade-in-up text-center flex flex-col items-center"
+              className="group bg-white rounded-3xl p-8 md:p-10 border border-slate-100 card-hover overflow-hidden animate-fade-in-up text-center flex flex-col items-center relative"
               style={{ animationDelay: `${i * 0.08}s` }}
             >
-              {/* Gradient circle bg */}
-              <div className={`absolute -top-6 -right-6 w-28 h-28 bg-gradient-to-br ${cat.gradient} rounded-full opacity-10 group-hover:opacity-20 group-hover:scale-150 transition-all duration-500`} />
+              <div className={`absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br ${cat.gradient} rounded-full opacity-[0.07] group-hover:opacity-[0.15] group-hover:scale-150 transition-all duration-700`} />
 
               <div className={`relative w-16 h-16 rounded-2xl bg-gradient-to-br ${cat.gradient} flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300`}>
                 {cat.icon}
               </div>
 
-              <h3 className="relative font-bold text-gray-900 text-lg mb-1 group-hover:text-primary transition-colors">{cat.name}</h3>
-              <p className="relative text-sm text-gray-400">{cat.count} produse</p>
+              <h3 className="relative font-bold text-slate-900 text-base mb-1 group-hover:text-primary transition-colors">{cat.name}</h3>
+              <p className="relative text-sm text-slate-400">{cat.count} produse</p>
 
-              <div className="relative flex items-center gap-1 mt-4 text-primary text-sm font-semibold opacity-0 group-hover:opacity-100 transition-all">
+              <div className="relative flex items-center gap-1.5 mt-5 text-primary text-sm font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300">
                 Vezi produsele
                 <span className="group-hover:translate-x-1 transition-transform">{Icons.arrow}</span>
               </div>
@@ -475,65 +513,65 @@ function CategoriesSection() {
 
 function QuantityOfferSection() {
   return (
-    <section className="relative bg-bg-warm py-20 overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
+    <section className="relative bg-white py-24 overflow-hidden">
+      <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-[100px]" />
+      <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-[100px]" />
 
-      <div className="relative site-container !max-w-4xl">
-        <div className="text-center mb-14">
-          <span className="inline-block text-accent text-sm font-semibold tracking-widest uppercase mb-3">Economisește</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
-            Ofertă <span className="text-gradient-accent">Specială</span>
+      <div className="relative site-container max-w-4xl mx-auto">
+        <div className="text-center mb-16">
+          <span className="inline-block text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-4">Economiseste</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
+            Oferta <span className="text-gradient-accent">Speciala</span>
           </h2>
-          <p className="text-gray-500 text-lg">Genunchieră Elastică Premium — cumperi mai mult, plătești mai puțin</p>
+          <p className="text-slate-500 text-base">Genunchiera Elastica Premium - cumperi mai mult, platesti mai putin</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {quantityOffers.map((offer, i) => (
             <div
               key={offer.qty}
-              className={`relative rounded-3xl p-7 text-center transition-all duration-300 animate-fade-in-up ${
+              className={`relative rounded-3xl p-8 text-center transition-all duration-300 animate-fade-in-up ${
                 offer.popular
                   ? "bg-white border-2 border-accent shadow-2xl shadow-accent/10 scale-105 z-10"
-                  : "bg-white border border-gray-200 hover:border-primary/30 hover:shadow-lg"
+                  : "bg-white border border-slate-200 hover:border-primary/30 hover:shadow-xl"
               }`}
               style={{ animationDelay: `${i * 0.1}s` }}
             >
               {offer.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 gradient-accent text-white text-xs font-bold px-5 py-1.5 rounded-full shadow-lg shadow-accent/30">
-                  ⭐ BEST DEAL
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 gradient-accent text-white text-[11px] font-bold px-5 py-1.5 rounded-full shadow-lg shadow-accent/30 tracking-wide">
+                  BEST DEAL
                 </div>
               )}
 
-              <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center mb-5">
+              <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center mb-6">
                 <span className="text-3xl font-extrabold text-gradient-primary">{offer.qty}x</span>
               </div>
 
-              <h3 className="font-bold text-xl text-gray-900 mb-1">{offer.label}</h3>
-              <p className="text-sm text-gray-400 mb-5">{offer.perUnit} RON / bucată</p>
+              <h3 className="font-bold text-xl text-slate-900 mb-1">{offer.label}</h3>
+              <p className="text-sm text-slate-400 mb-6">{offer.perUnit} RON / bucata</p>
 
-              <p className="text-4xl font-extrabold text-gray-900 mb-1">
-                {offer.price} <span className="text-lg font-bold text-gray-400">RON</span>
+              <p className="text-4xl font-extrabold text-slate-900 mb-1">
+                {offer.price} <span className="text-lg font-bold text-slate-400">RON</span>
               </p>
               {offer.save > 0 && (
-                <p className="text-sm font-semibold text-green-600 mb-5">Economisești {offer.save} RON</p>
+                <p className="text-sm font-semibold text-green-600 mb-6">Economisesti {offer.save} RON</p>
               )}
-              {offer.save === 0 && <p className="text-sm text-gray-400 mb-5">Preț standard</p>}
+              {offer.save === 0 && <p className="text-sm text-slate-400 mb-6">Pret standard</p>}
 
               <button
-                className={`w-full py-3.5 rounded-2xl font-semibold transition-all text-sm ${
+                className={`w-full py-3.5 rounded-full font-semibold transition-all text-sm ${
                   offer.popular
-                    ? "gradient-accent text-white shadow-lg shadow-accent/30 hover:shadow-xl hover:shadow-accent/40 hover:scale-[1.02]"
-                    : "gradient-primary text-white hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]"
+                    ? "gradient-accent text-white shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30 hover:scale-[1.02]"
+                    : "gradient-primary text-white hover:shadow-lg hover:shadow-primary/20 hover:scale-[1.02]"
                 }`}
               >
-                Comandă Acum
+                Comanda Acum
               </button>
 
               {offer.popular && (
-                <div className="flex items-center justify-center gap-2 mt-4">
+                <div className="flex items-center justify-center gap-2 mt-5">
                   <span className="text-green-500">{Icons.check}</span>
-                  <span className="text-xs text-gray-500">Cea mai populară opțiune</span>
+                  <span className="text-xs text-slate-500 font-medium">Cea mai populara optiune</span>
                 </div>
               )}
             </div>
@@ -549,18 +587,18 @@ function PromoBanner() {
     <section className="relative overflow-hidden">
       <div className="gradient-primary py-16 md:py-20">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-1/4 w-64 h-64 border border-white rounded-full" />
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 border border-white rounded-full" />
-          <div className="absolute top-1/2 left-1/2 w-48 h-48 border border-white rounded-full" />
+          <div className="absolute top-0 left-[20%] w-64 h-64 border border-white/50 rounded-full" />
+          <div className="absolute bottom-0 right-[20%] w-96 h-96 border border-white/30 rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 border border-white/40 rounded-full" />
         </div>
         <div className="relative site-container flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-white text-center md:text-left">
-            <p className="text-white/70 text-sm font-semibold tracking-widest uppercase mb-3">Oferte limitate</p>
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-3">Nu rata ofertele săptămânii!</h2>
-            <p className="text-white/80 text-lg max-w-md">Reduceri de până la 50% la cele mai populare produse din magazin</p>
+            <p className="text-white/60 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Oferte limitate</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-3">Nu rata ofertele saptamanii!</h2>
+            <p className="text-white/70 text-base max-w-md">Reduceri de pana la 50% la cele mai populare produse din magazin</p>
           </div>
-          <a href="#produse" className="gradient-accent text-white font-bold py-4 px-10 rounded-2xl transition-all hover:shadow-2xl hover:shadow-accent/40 hover:scale-105 text-lg shrink-0">
-            🔥 Vezi Reducerile
+          <a href="#produse" className="gradient-accent text-white font-bold py-4 px-10 rounded-full transition-all hover:shadow-2xl hover:shadow-accent/40 hover:scale-105 text-base shrink-0">
+            Vezi Reducerile
           </a>
         </div>
       </div>
@@ -570,36 +608,38 @@ function PromoBanner() {
 
 function TestimonialsSection() {
   return (
-    <section className="gradient-mesh py-20">
+    <section className="gradient-mesh py-24">
       <div className="site-container">
-        <div className="text-center mb-14">
-          <span className="inline-block text-primary text-sm font-semibold tracking-widest uppercase mb-3">Testimoniale</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
-            Ce Spun <span className="text-gradient-primary">Clienții</span>
+        <div className="text-center mb-16">
+          <span className="inline-block text-primary text-xs font-semibold tracking-[0.2em] uppercase mb-4">Testimoniale</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4">
+            Ce Spun <span className="text-gradient-primary">Clientii</span>
           </h2>
-          <p className="text-gray-500 text-lg">Peste 12,000 de clienți mulțumiți în toată România</p>
+          <p className="text-slate-500 text-base">Peste 12,000 de clienti multumiti in toata Romania</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
             <div
               key={t.name}
-              className="bg-white rounded-3xl p-7 border border-gray-100 card-hover animate-fade-in-up"
+              className="bg-white rounded-3xl p-8 border border-slate-100 card-hover animate-fade-in-up"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
-              <div className="flex items-center gap-0.5 mb-4">
+              <div className="flex items-center gap-0.5 mb-5">
                 {Array.from({ length: t.rating }).map((_, j) => (
                   <span key={j}>{Icons.star}</span>
                 ))}
               </div>
-              <p className="text-gray-600 mb-6 leading-relaxed">&ldquo;{t.text}&rdquo;</p>
-              <div className="flex items-center gap-3 pt-5 border-t border-gray-100">
+
+              <p className="text-slate-600 text-sm mb-8 leading-relaxed">&ldquo;{t.text}&rdquo;</p>
+
+              <div className="flex items-center gap-3 pt-6 border-t border-slate-100">
                 <div className={`w-11 h-11 ${t.color} rounded-xl flex items-center justify-center text-white font-bold text-sm`}>
                   {t.initials}
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-gray-900">{t.name}</p>
-                  <p className="text-xs text-gray-400">{t.city}</p>
+                  <p className="font-semibold text-sm text-slate-900">{t.name}</p>
+                  <p className="text-xs text-slate-400">{t.city}</p>
                 </div>
               </div>
             </div>
@@ -612,29 +652,29 @@ function TestimonialsSection() {
 
 function Newsletter() {
   return (
-    <section className="relative py-20 overflow-hidden">
-      <div className="absolute inset-0 gradient-primary opacity-[0.03]" />
-      <div className="relative site-container !max-w-2xl text-center">
-        <div className="w-16 h-16 mx-auto rounded-2xl gradient-primary flex items-center justify-center mb-6 shadow-lg shadow-primary/30">
-          <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+    <section className="relative py-24 overflow-hidden bg-slate-50">
+      <div className="absolute inset-0 gradient-primary opacity-[0.02]" />
+      <div className="relative site-container max-w-2xl mx-auto text-center">
+        <div className="w-14 h-14 mx-auto rounded-2xl gradient-primary flex items-center justify-center mb-6 shadow-lg shadow-primary/20">
+          <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
           </svg>
         </div>
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
-          Abonează-te pentru Oferte
+        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">
+          Aboneaza-te pentru Oferte
         </h2>
-        <p className="text-gray-500 mb-8 text-lg">Primește primele reduceri și produse noi direct pe email</p>
+        <p className="text-slate-500 mb-8 text-base">Primeste primele reduceri si produse noi direct pe email</p>
         <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
           <input
             type="email"
             placeholder="Adresa ta de email"
-            className="flex-1 bg-gray-50 border border-gray-200 rounded-2xl py-3.5 px-5 text-sm focus:outline-none focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
+            className="flex-1 bg-white border border-slate-200 rounded-full py-3.5 px-6 text-sm focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
           />
-          <button className="gradient-accent text-white font-semibold py-3.5 px-7 rounded-2xl hover:shadow-lg hover:shadow-accent/30 transition-all hover:scale-[1.02] shrink-0">
-            Abonează-te
+          <button className="gradient-accent text-white font-semibold py-3.5 px-7 rounded-full hover:shadow-lg hover:shadow-accent/20 transition-all hover:scale-[1.02] shrink-0">
+            Aboneaza-te
           </button>
         </div>
-        <p className="text-xs text-gray-400 mt-4">Fără spam. Dezabonare oricând.</p>
+        <p className="text-xs text-slate-400 mt-4">Fara spam. Dezabonare oricand.</p>
       </div>
     </section>
   );
@@ -642,19 +682,19 @@ function Newsletter() {
 
 function Footer() {
   return (
-    <footer className="bg-gray-950 text-white pt-16 pb-8">
+    <footer className="gradient-dark text-white pt-20 pb-8">
       <div className="site-container">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5 mb-5">
-              <div className="w-10 h-10 gradient-primary rounded-xl flex items-center justify-center text-white font-extrabold text-lg shadow-lg shadow-primary/30">S</div>
-              <span className="text-xl font-bold">Sano<span className="text-primary">Viva</span><span className="text-accent text-sm">.ro</span></span>
+            <div className="flex items-center gap-2.5 mb-6">
+              <div className="w-10 h-10 gradient-primary rounded-2xl flex items-center justify-center text-white font-extrabold text-lg shadow-lg shadow-primary/20">S</div>
+              <span className="text-xl font-extrabold">Sano<span className="text-primary">Viva</span><span className="text-accent text-sm">.ro</span></span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Magazin online de produse medicale și wellness. Calitate, prețuri accesibile și livrare rapidă în toată România.
+            <p className="text-slate-400 text-sm leading-relaxed mb-6">
+              Magazin online de produse medicale si wellness. Calitate, preturi accesibile si livrare rapida in toata Romania.
             </p>
-            <a href="#" className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold py-2.5 px-5 rounded-xl transition-all hover:scale-[1.02]">
+            <a href="#" className="inline-flex items-center gap-2.5 bg-green-600 hover:bg-green-500 text-white text-sm font-semibold py-2.5 px-5 rounded-full transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-green-600/30">
               {Icons.whatsapp}
               WhatsApp
             </a>
@@ -662,52 +702,56 @@ function Footer() {
 
           {/* Info */}
           <div>
-            <h4 className="font-semibold text-sm tracking-widest uppercase text-gray-400 mb-5">Informații</h4>
-            <ul className="space-y-3 text-sm">
-              {["Despre Noi", "Politica de Livrare", "Politica de Retur", "Termeni și Condiții", "Politica GDPR"].map((link) => (
-                <li key={link}><a href="#" className="text-gray-400 hover:text-primary transition-colors">{link}</a></li>
+            <h4 className="text-xs font-semibold tracking-[0.2em] uppercase text-slate-500 mb-6">Informatii</h4>
+            <ul className="space-y-3.5 text-sm">
+              {["Despre Noi", "Politica de Livrare", "Politica de Retur", "Termeni si Conditii", "Politica GDPR"].map((link) => (
+                <li key={link}>
+                  <a href="#" className="text-slate-400 hover:text-primary transition-colors">{link}</a>
+                </li>
               ))}
             </ul>
           </div>
 
           {/* Categories */}
           <div>
-            <h4 className="font-semibold text-sm tracking-widest uppercase text-gray-400 mb-5">Categorii</h4>
-            <ul className="space-y-3 text-sm">
+            <h4 className="text-xs font-semibold tracking-[0.2em] uppercase text-slate-500 mb-6">Categorii</h4>
+            <ul className="space-y-3.5 text-sm">
               {categories.map((cat) => (
-                <li key={cat.slug}><a href={`#${cat.slug}`} className="text-gray-400 hover:text-primary transition-colors">{cat.name}</a></li>
+                <li key={cat.slug}>
+                  <a href={`#${cat.slug}`} className="text-slate-400 hover:text-primary transition-colors">{cat.name}</a>
+                </li>
               ))}
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-sm tracking-widest uppercase text-gray-400 mb-5">Contact</h4>
-            <ul className="space-y-4 text-sm">
-              <li className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center text-primary shrink-0">
+            <h4 className="text-xs font-semibold tracking-[0.2em] uppercase text-slate-500 mb-6">Contact</h4>
+            <ul className="space-y-5 text-sm">
+              <li className="flex items-center gap-3.5">
+                <div className="w-10 h-10 rounded-xl glass flex items-center justify-center text-primary shrink-0">
                   {Icons.whatsapp}
                 </div>
                 <div>
-                  <p className="text-gray-400">WhatsApp</p>
+                  <p className="text-slate-500 text-xs">WhatsApp</p>
                   <a href="#" className="text-white font-medium hover:text-primary transition-colors">0371 XXX XXX</a>
                 </div>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+              <li className="flex items-center gap-3.5">
+                <div className="w-10 h-10 rounded-xl glass flex items-center justify-center shrink-0">
                   <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
                 </div>
                 <div>
-                  <p className="text-gray-400">Email</p>
+                  <p className="text-slate-500 text-xs">Email</p>
                   <a href="#" className="text-white font-medium hover:text-primary transition-colors">contact@sanoviva.ro</a>
                 </div>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center shrink-0">
+              <li className="flex items-center gap-3.5">
+                <div className="w-10 h-10 rounded-xl glass flex items-center justify-center shrink-0">
                   <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
                 <div>
-                  <p className="text-gray-400">Program</p>
+                  <p className="text-slate-500 text-xs">Program</p>
                   <p className="text-white font-medium">L-V: 09:00 - 18:00</p>
                 </div>
               </li>
@@ -717,10 +761,10 @@ function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-500">© 2026 SanoViva.ro — Toate drepturile rezervate</p>
+          <p className="text-sm text-slate-600">&#169; 2026 SanoViva.ro &#8212; Toate drepturile rezervate</p>
           <div className="flex items-center gap-3">
             {["Visa", "Mastercard", "COD", "Transfer"].map((m) => (
-              <div key={m} className="px-3 py-1.5 bg-white/5 rounded-lg text-xs text-gray-400 font-medium">{m}</div>
+              <div key={m} className="px-3.5 py-1.5 glass rounded-lg text-xs text-slate-400 font-medium">{m}</div>
             ))}
           </div>
         </div>
@@ -732,20 +776,20 @@ function Footer() {
 function FloatingButtons() {
   return (
     <>
-      {/* WhatsApp — left */}
+      {/* WhatsApp - left */}
       <a
         href="#"
-        className="fixed bottom-6 left-6 z-50 bg-green-500 hover:bg-green-600 text-white font-bold p-4 rounded-full shadow-2xl shadow-green-500/40 transition-all hover:scale-110 flex items-center justify-center"
+        className="fixed bottom-6 left-6 z-50 bg-green-500 hover:bg-green-400 text-white font-bold p-4 rounded-full shadow-2xl shadow-green-500/30 transition-all hover:scale-110 flex items-center justify-center"
         title="WhatsApp"
       >
         {Icons.whatsapp}
       </a>
-      {/* CTA — right, big sanatateforte style */}
+      {/* CTA - right */}
       <a
         href="#produse"
-        className="fixed bottom-6 right-6 z-50 gradient-accent text-white font-extrabold py-4 px-8 rounded-full shadow-2xl shadow-accent/50 transition-all hover:scale-110 animate-pulse-ring flex items-center gap-2 text-base"
+        className="fixed bottom-6 right-6 z-50 gradient-accent text-white font-bold py-3.5 px-7 rounded-full shadow-2xl shadow-accent/40 transition-all hover:scale-110 animate-pulse-ring flex items-center gap-2 text-sm"
       >
-        👉🏻 COMANDĂ ACUM
+        COMANDA ACUM
       </a>
     </>
   );
