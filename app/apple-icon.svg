@@ -1,20 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00BCD4"/>
-      <stop offset="100%" stop-color="#00838F"/>
+      <stop offset="0%" stop-color="#7DE0ED"/>
+      <stop offset="35%" stop-color="#26C6DA"/>
+      <stop offset="70%" stop-color="#00838F"/>
+      <stop offset="100%" stop-color="#006978"/>
     </linearGradient>
-    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="white" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="white" stop-opacity="0"/>
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-color="#004D40" flood-opacity="0.4"/>
+    <radialGradient id="topLight" cx="25%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bottomDark" x1="0%" y1="55%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#003D4D" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#003D4D" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#B2EBF2"/>
+    </linearGradient>
+    <filter id="sshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3.5"/>
+      <feOffset dy="2.2"/>
+      <feFlood flood-color="#003D4D" flood-opacity="0.5"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
   <rect width="180" height="180" rx="38" fill="url(#bg)"/>
-  <rect width="180" height="180" rx="38" fill="url(#shine)"/>
-  <text x="90" y="134" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="120" font-weight="800" fill="white" text-anchor="middle" filter="url(#shadow)">S</text>
-  <circle cx="144" cy="144" r="10" fill="#FF7043" opacity="0.15"/>
-  <circle cx="144" cy="144" r="6" fill="#FF7043"/>
+  <rect width="180" height="180" rx="38" fill="url(#bottomDark)"/>
+  <rect width="180" height="180" rx="38" fill="url(#topLight)"/>
+  <rect width="180" height="85" rx="38" fill="url(#gloss)"/>
+  <rect x="2" y="2" width="176" height="176" rx="37" fill="none" stroke="white" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="90" cy="90" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="90" cy="90" r="66" fill="none" stroke="white" stroke-width="0.5" stroke-opacity="0.55"/>
+  <line x1="90" y1="20" x2="90" y2="27" stroke="white" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="90" y1="153" x2="90" y2="160" stroke="white" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="20" y1="90" x2="27" y2="90" stroke="white" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="153" y1="90" x2="160" y2="90" stroke="white" stroke-width="1.2" stroke-opacity="0.6" stroke-linecap="round"/>
+  <text x="90" y="126" font-family="Georgia, 'Times New Roman', Times, serif" font-size="106" font-weight="700" fill="url(#sg)" text-anchor="middle" filter="url(#sshadow)">S</text>
+  <circle cx="145" cy="145" r="10" fill="#FF7043" opacity="0.15"/>
+  <circle cx="145" cy="145" r="5.6" fill="#FF7043"/>
+  <circle cx="143" cy="143" r="1.5" fill="white" opacity="0.7"/>
 </svg>
